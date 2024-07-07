@@ -1,8 +1,7 @@
  
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import { LoginLink } from '@kinde-oss/kinde-auth-nextjs';
-
+import { LoginLink } from '@kinde-oss/kinde-auth-nextjs/components';
 
 const Hero = () => {
   return (

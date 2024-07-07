@@ -37,7 +37,7 @@ const page = () => {
     }
   };
   return (
-    <div className="text-white">
+    <div className="text-white bg-black">
       <DashboardHeader user={user} />
       <DashboardTable />
     </div>
