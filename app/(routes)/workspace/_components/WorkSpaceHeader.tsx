@@ -98,7 +98,7 @@ const WorkSpaceHeader = ({
       {/* right most */}
       <div className="w-full space-x-4  flex items-center  justify-end">
         <a
-          href="https://github.com/kaifcoder/eraser_clone"
+          href="https://github.com/swarnendu19/Crafy-Eraser-Clone"
           target="_blank"
           rel="noreferrer noopener"
         >

@@ -4,14 +4,12 @@ import React, { useEffect } from "react";
 import { useKindeBrowserClient } from "@kinde-oss/kinde-auth-nextjs";
 import { useConvex, useMutation, useQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";
-import { useRouter } from "next/navigation";
 import DashboardHeader from "./_components/DashboardHeader";
 import DashboardTable from "./_components/DashboardTable";
 
 const page = () => {
   const { user } = useKindeBrowserClient();
   const convex = useConvex();
-  const router = useRouter();
   const createUser = useMutation(api.user.createUser);
 
   useEffect(() => {
@@ -37,7 +35,7 @@ const page = () => {
     }
   };
   return (
-    <div className="text-white bg-black">
+    <div className="text-white">
       <DashboardHeader user={user} />
       <DashboardTable />
     </div>

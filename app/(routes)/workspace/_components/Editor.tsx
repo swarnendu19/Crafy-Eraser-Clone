@@ -6,7 +6,6 @@ import Header from "@editorjs/header";
 import List from "@editorjs/list";
 // @ts-ignore
 import checkList from "@editorjs/checklist";
-import { Edu_QLD_Beginner } from "next/font/google";
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { toast } from "sonner";
