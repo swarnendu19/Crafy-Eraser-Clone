@@ -1,15 +1,12 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+ 
+import Header from "./_components/Header";
+import Hero from "./_components/Hero";
 
 export default function Home() {
   return (
-    <div>
-      <h1>
-        Hello
-      </h1>
-      <Button className="bg-green-600">
-        Hello
-      </Button>
-    </div>
+    <>
+      <Header/>
+      <Hero/>
+    </>
   );
 }
